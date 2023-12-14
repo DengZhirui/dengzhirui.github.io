@@ -4,7 +4,19 @@
 研究方向，对该导师研究课题的理解，未来自己打算做的方向
 客套+期待回复
 
-My name is Zhirui Deng. Previously, I got B.S. in Renmin University of China major in Computer Science. Currently, I am a PhD student from Gaoling School of Artificial Intelligence, Renmin University of China, major in Artificial Intelligence. My research interests focus on information retrieval and recommend system. I am currently working on search result diversification and diversified recommendation. 
+Previously, I got my bachelor's degree in Renmin University of China major in Computer Science. Currently, I am a Ph.D student from Gaoling School of Artificial Intelligence, Renmin University of China, major in artificial intelligence. 
+
+My name is Zhirui Deng. I am a 3rd year Ph.D student major in artificial intelligence from Renmin University of China in China and I am now applying for a visiting Ph.D financed by China Scholarship Council(CSC). I want to inquire an oppotunity to do research with you under your supervision. 
+
+I am really interested in your researches, especially in diversified recommendation. The paper "Improving End-to-End Sequential Recommendations with Intent-aware Diversification" did inspire me a lot. My research interests focus on information retrieval and recommender system. Specifically, I am particularly interested in improve the diversity of information systems. I am currently working on search result diversification and diversified recommendation. I have already published and submitted several papers on WSDM, TOIS, TKDE, IRJ. 
+
+The area I am now focusing on are the research on the#自己的研究方向#.I just finished one paper about#已完成的论文成果#.#自己的论文成果简介1-2句话#（3.外导研究方向、你的研究方向4.你的成果）
+
+If possible,I hope to have further discussion with you about the research plan. I apply for a one-year visiting Ph.D student position. After one-year study, I will come back to Renmin University of China to accomplish my doctor degree. （5.联培时限，回国毕业）One thing should be mentioned is that the China Scholarship Council(CSC) will provide financial support for my research, which include both the daily expenses and the transportation cost.（6.CSC将为你提供资助)
+
+If you have any question, please contact me via this email (#你的邮箱#). And you can learn more about me in the attachment (CV&Research Proposal). Thanks for sparing time to read my letter. I am looking forward to your reply.（7.再次表明意愿，期待回信 8.附件）
+
+
 
 Specifically, I want to investigate the general learning principles of biological brains. I am particularly interested in developing a computtional framework that reveals a simplified (maybe oversimplified) model of how (a part of) our great brains work. This involves comprehension on three levels: network architecture (microcircuits, connection rules), modeling of various types of neurons, and modeling of synaptic dynamics. 
 
