@@ -4,7 +4,7 @@ baseURL: "https://dengzhirui.github.io/"
 title: Siri.Deng
 pagination:
   pagerSize: 5
-theme: PaperMod
+theme: [hugo-PaperMod]
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
