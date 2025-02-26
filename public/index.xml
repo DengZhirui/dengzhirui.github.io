@@ -1,47 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Siri.Deng</title>
-    <link>https://dengzhirui.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Siri.Deng</description>
-    <generator>Hugo</generator>
+    <image>
+      <title>Siri.Deng</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dengzhirui.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的第一篇博客</title>
-      <link>https://dengzhirui.github.io/posts/first-post/</link>
+      <link>http://localhost:1313/posts/first_post/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://dengzhirui.github.io/posts/first-post/</guid>
-      <description>&lt;p&gt;这里是文章内容&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Archive</title>
-      <link>https://dengzhirui.github.io/archives.fr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dengzhirui.github.io/archives.fr/</guid>
-      <description>archives</description>
-    </item>
-    <item>
-      <title>Archive</title>
-      <link>https://dengzhirui.github.io/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dengzhirui.github.io/archives/</guid>
-      <description>archives</description>
-    </item>
-    <item>
-      <title>Search</title>
-      <link>https://dengzhirui.github.io/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dengzhirui.github.io/search/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SearchL2</title>
-      <link>https://dengzhirui.github.io/search.fr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dengzhirui.github.io/search.fr/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/first_post/</guid>
+      <description>这是我的第一篇博客文章</description>
     </item>
   </channel>
 </rss>

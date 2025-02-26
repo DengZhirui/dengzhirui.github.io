@@ -4,7 +4,7 @@ baseURL: "https://dengzhirui.github.io/"
 title: Siri.Deng
 pagination:
   pagerSize: 5
-theme: [hugo-PaperMod]
+theme: hugo-PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -41,7 +41,7 @@ languages:
         - name: Homepage
           url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 
-  Homepage:
+  fr:
     languagedirection: rtl
     weight: 3
     title: Siri.Deng
