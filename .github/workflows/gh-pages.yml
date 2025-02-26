@@ -57,6 +57,11 @@ jobs:
           hugo \
             --buildDrafts --gc \
             --baseURL ${{ steps.pages.outputs.base_url }}
+      - name: List public directory
+        run: |
+          ls -la ./public
+          find ./public -type l
+          du -sh ./public
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
