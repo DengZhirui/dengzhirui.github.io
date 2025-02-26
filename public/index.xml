@@ -2,37 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Siri.Deng</title>
-    <link>https://dengzhirui.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Siri.Deng</description>
     <image>
       <title>Siri.Deng</title>
-      <url>https://dengzhirui.github.io/images/papermod-cover.png</url>
-      <link>https://dengzhirui.github.io/images/papermod-cover.png</link>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Feb 2025 03:19:18 +0800</lastBuildDate>
-    <atom:link href="https://dengzhirui.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>https://dengzhirui.github.io/posts/my-first-post/</link>
-      <pubDate>Thu, 27 Feb 2025 03:19:18 +0800</pubDate>
-      <guid>https://dengzhirui.github.io/posts/my-first-post/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://dengzhirui.github.io/posts/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dengzhirui.github.io/posts/about/</guid>
-      <description>&lt;p&gt;{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = &amp;ldquo;&lt;a href=&#34;https://cdn.jsdelivr.net/gh/%22&#34;&gt;https://cdn.jsdelivr.net/gh/&#34;&lt;/a&gt; | append: site.repository | append: &amp;ldquo;@&amp;rdquo; %}
-{% else %}
-{% assign gsDataBaseUrl = &amp;ldquo;&lt;a href=&#34;https://raw.githubusercontent.com/%22&#34;&gt;https://raw.githubusercontent.com/&#34;&lt;/a&gt; | append: site.repository | append: &amp;ldquo;/&amp;rdquo; %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: &amp;ldquo;google-scholar-stats/gs_data_shieldsio.json&amp;rdquo; %}&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#39;anchor&#39; id=&#39;about-me&#39;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
