@@ -20,5 +20,19 @@
       <guid>https://dengzhirui.github.io/posts/my-first-post/</guid>
       <description></description>
     </item>
+    <item>
+      <title></title>
+      <link>https://dengzhirui.github.io/posts/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dengzhirui.github.io/posts/about/</guid>
+      <description>&lt;p&gt;{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = &amp;ldquo;&lt;a href=&#34;https://cdn.jsdelivr.net/gh/%22&#34;&gt;https://cdn.jsdelivr.net/gh/&#34;&lt;/a&gt; | append: site.repository | append: &amp;ldquo;@&amp;rdquo; %}
+{% else %}
+{% assign gsDataBaseUrl = &amp;ldquo;&lt;a href=&#34;https://raw.githubusercontent.com/%22&#34;&gt;https://raw.githubusercontent.com/&#34;&lt;/a&gt; | append: site.repository | append: &amp;ldquo;/&amp;rdquo; %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: &amp;ldquo;google-scholar-stats/gs_data_shieldsio.json&amp;rdquo; %}&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#39;anchor&#39; id=&#39;about-me&#39;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

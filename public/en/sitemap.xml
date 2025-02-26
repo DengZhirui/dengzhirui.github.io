@@ -12,19 +12,16 @@
     <lastmod>2025-02-27T03:19:18+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://dengzhirui.github.io/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="https://dengzhirui.github.io/fa/"
+                hreflang="homepage"
+                href="https://dengzhirui.github.io/homepage/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="https://dengzhirui.github.io/"
                 />
+  </url><url>
+    <loc>https://dengzhirui.github.io/posts/about/</loc>
   </url><url>
     <loc>https://dengzhirui.github.io/categories/</loc>
   </url><url>
