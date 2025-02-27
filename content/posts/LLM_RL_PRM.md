@@ -25,6 +25,6 @@ QWEN2.5-MATH-7B-INSTRUCT as verifier (PRM) and METAMATHMISTRAL-7B / LLAMA-3.18B-
 
 Shortcome: Still rely on the large amount of human labeled data to train the PRM.
 
-![Framework of PRM](https://dengzhirui.github.io/images/PRM-MULTI.png)
+![Framework of PRM](https://github.com/DengZhirui/dengzhirui.github.io/tree/main/images/PRM-MULTI.png)
 
 
