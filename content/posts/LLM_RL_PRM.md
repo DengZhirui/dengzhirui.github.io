@@ -12,7 +12,7 @@ Read deepseek-R1, although PRM can facilitates the optimization of LLMs in RL pr
 2. It is hard for people to accurately annotate the process reward.
 3. Accurate ORM is more useful that rough PRM.
 
-:round_pushpin:How to accurately annotate the PRM without human intensive?
+:round_pushpin: How to accurately annotate the PRM without human intensive?
 This problem is more important for Multi-hop QA / Web Search.
 
 ****
@@ -43,9 +43,23 @@ $$
    <img src="https://raw.githubusercontent.com/DengZhirui/dengzhirui.github.io/main/images/PRM-MULTI.png" width="500"/>
 
 
+****
+
 3. [Improving Large Language Models via Fine-grained Reinforcement Learning with Minimum Editing Constraint](https://arxiv.org/pdf/2401.06081)
 
-<img src="https://raw.githubusercontent.com/DengZhirui/dengzhirui.github.io/main/images/RLMEC.png" width="500"/>
+- Distill training data from teacher model and train the reward model. 
 
+- They use math and one-hop QA datasets.
 
+   <img src="https://raw.githubusercontent.com/DengZhirui/dengzhirui.github.io/main/images/RLMEC.png" width="500"/>
+
+****
+
+:round_pushpin: For step-wise RL optimization, obtaining many labeled data is time-consuming and expensive. Moreover, human annotators are not able to provide the accurate process reward. Utilizing the teacher model to generate PRM for multi-hop QA is unreliable and they may have multiple reasoning paths. Existing PRM methods utilizing MCTS which needs to sample a large number of trajectories. 
+
+The reasoning process of math problem and code is certain and have many labeled data. If these data can be used to train the PRM for QA tasks?
+
+- Initialize the PRM with the reward model trained on math/code dataset.
+- Utilize the PRM to the contribution of each reasoning step in multi-hop QA tasks.
+- Distilling a small amount of data from teacher model to train the PRM (this is not so time-consuming and practical).
 
