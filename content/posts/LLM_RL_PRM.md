@@ -22,7 +22,7 @@ This problem is more important for Multi-hop QA / Web Search.
 - Utilizing MCTS to build the PRM and combine it with the ORM to conduct RL optimization.
 
 $$
-  \mathcal{L} = \mathcal{L}_\text{o-DPO} + \mathcal{L}_\text{s-DPO} + \mathcal{L}_\text{SFT}
+\mathcal{L} = \mathcal{L}_\text{o-DPO} + \mathcal{L}_\text{s-DPO} + \mathcal{L}_\text{SFT}
 $$
 
 - Shortcome: MCTS is time-consuming.
@@ -41,5 +41,11 @@ $$
 - Shortcome: Still rely on the large amount of human labeled data to train the PRM.
    <!-- ![Framework of PRM](https://raw.githubusercontent.com/DengZhirui/dengzhirui.github.io/main/images/PRM-MULTI.png) -->
    <img src="https://raw.githubusercontent.com/DengZhirui/dengzhirui.github.io/main/images/PRM-MULTI.png" width="500"/>
+
+
+3. [Improving Large Language Models via Fine-grained Reinforcement Learning with Minimum Editing Constraint](https://arxiv.org/pdf/2401.06081)
+
+<img src="https://raw.githubusercontent.com/DengZhirui/dengzhirui.github.io/main/images/RLMEC.png" width="500"/>
+
 
 
