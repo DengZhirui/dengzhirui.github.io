@@ -24,3 +24,8 @@ categories: ["survey"]
 
   <img src="https://raw.githubusercontent.com/DengZhirui/dengzhirui.github.io/main/images/DCI.png" width="500"/>
   <img src="https://raw.githubusercontent.com/DengZhirui/dengzhirui.github.io/main/images/PAWA.png" width="100"/>
+
+3. [One Embedder, Any Task: Instruction-Finetuned Text Embeddings](https://aclanthology.org/2023.findings-acl.71/)
+- Two steps framework
+  - Constrastive learning loss for pretraining encoder $\mathbf{E}(x)$ and $\mathbf{E}(y)$
+  - Predict with the max cosine similarity score $\cos(\mathbf{E}(I_x;x), \mathbf{E}(I_y;y))$
