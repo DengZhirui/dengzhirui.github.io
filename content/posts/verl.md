@@ -7,11 +7,15 @@
 - Optimizer State Partitioning（Pos）：减少4倍内存，通信量与数据并行性相同
 - 添加梯度分区（Pos+g）：减少8倍内存，通信量与数据并行性相同
 - 添加参数分区（Pos+g+p）：内存减少与数据并行度Nd呈线性关系。例如，在64个GPU之间进行拆分将产生64倍的内存缩减。通信量有50%的适度增长。
-![加载中](https://img.alicdn.com/imgextra/i3/O1CN011hCX0D1LdyxGFlL2y_!!6000000001323-54-tps-80-80.apng) "可选标题")
+![加载中](images/deepspeed1.jpg) "可选标题")
 #### 2. ZeRO-2
 增加梯度切片，优化内存和碎片内存，在ZeRO-1（只对optimizer切片）的基础上可训练模型的大小扩大了一倍。
 #### 3. ZeRO-3 offload
 增加模型参数切片，将优化器状态和梯度卸到CPU内存中，单张V100可运行13B模型。
+#### 4. Sparse Attention
+用6倍速度执行10倍长的序列.
+#### 5. 1-bit Adam
+梯度压缩为1-bit。
 
 ## 混合精度
 BF16，FP16
