@@ -8,6 +8,7 @@
 - 添加梯度分区（Pos+g）：减少8倍内存，通信量与数据并行性相同
 - 添加参数分区（Pos+g+p）：内存减少与数据并行度Nd呈线性关系。例如，在64个GPU之间进行拆分将产生64倍的内存缩减。通信量有50%的适度增长。
 <img src="https://raw.githubusercontent.com/DengZhirui/dengzhirui.github.io/main/images/deepspeed1.jpg" width="500"/>
+
 #### 2. ZeRO-2
 增加梯度切片，优化内存和碎片内存，在ZeRO-1（只对optimizer切片）的基础上可训练模型的大小扩大了一倍。
 #### 3. ZeRO-3 offload
